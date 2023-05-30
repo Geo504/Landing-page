@@ -7,7 +7,7 @@ export const WelcomeMessage = ({title ,text, button='Call to Action!'}) => {
     <div id="carouselExampleSlidesOnly" className="carousel slide carousel-fade" data-bs-ride="carousel">
       <div className="carousel-inner">
 
-        <div className="carousel-item bg-img1 active">
+        <div className="carousel-item active bg-img1">
           <div className="mask">
             <div>
               <h1 className="card-title text-black">{title}</h1>
@@ -29,7 +29,7 @@ export const WelcomeMessage = ({title ,text, button='Call to Action!'}) => {
                 {text}
               </p>
               <a href="#" className="btn btn-dark">
-              {button}
+                {button}
               </a>
             </div>
           </div>
